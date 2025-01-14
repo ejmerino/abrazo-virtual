@@ -60,22 +60,25 @@ function App() {
 
   return (
     <div className={`min-h-screen transition-colors duration-500 ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-black'}`}>
-      <header className="bg-white dark:bg-gray-800 shadow p-4 flex justify-between items-center transition-colors duration-500">
-        <h1 className="text-2xl font-bold">Abrazo Virtual</h1>
-        <button
-          onClick={toggleDarkMode}
-          className="flex items-center justify-center w-10 h-10 bg-gray-200 dark:bg-gray-600 rounded-full shadow-lg transition-transform duration-500 transform hover:scale-110"
-          aria-label="Toggle Dark Mode"
-        >
-          {darkMode ? <FaSun className="text-yellow-400 w-6 h-6" /> : <FaMoon className="text-blue-400 w-6 h-6" />}
-        </button>
-      </header>
+  <header className="bg-white dark:bg-gray-800 shadow p-4 flex justify-center items-center transition-colors duration-500">
+    <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold italic text-center">{quote}</h1>
+  </header>
+
+  <div className="absolute top-4 right-4 sm:top-6 sm:right-6">
+    <button
+      onClick={toggleDarkMode}
+      className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 bg-gray-200 dark:bg-gray-600 rounded-full shadow-lg transition-transform duration-500 transform hover:scale-110"
+      aria-label="Toggle Dark Mode"
+    >
+      {darkMode ? <FaSun className="text-yellow-400 w-6 h-6 sm:w-7 sm:h-7" /> : <FaMoon className="text-blue-400 w-6 h-6 sm:w-7 sm:h-7" />}
+    </button>
+  </div>
 
       <main className="p-8 space-y-16">
         {/* Frases Motivadoras */}
-        <section className="text-center">
+        {/* <section className="text-center">
           <p className="text-lg italic">"{quote}"</p>
-        </section>
+        </section> */}
 
         {/* Otras secciones aquí */}
       </main>
