@@ -10,8 +10,29 @@ function App() {
     "Cada día es una nueva oportunidad para comenzar de nuevo. 🌱",
     "No te rindas, las grandes cosas llevan tiempo. ⏳",
     "Tú eres más fuerte de lo que piensas. 💪",
-    "La felicidad no es un destino, es una forma de viajar. 🚀"
+    "La felicidad no es un destino, es una forma de viajar. 🚀",
+    "Aunque hoy sea difícil, el mañana puede traer algo hermoso. 🌈",
+    "La paz comienza con una sonrisa. 😊",
+    "El amor propio es el primer paso hacia la sanación. 💖",
+    "Recuerda que no estás solo, siempre hay alguien dispuesto a escuchar. 🫶",
+    "Cada pequeño paso cuenta, no subestimes tus logros. 🦶",
+    "El dolor es real, pero también lo es la fuerza que tienes para superarlo. 🌻",
+    "Es válido tener días difíciles, pero no olvides que eres capaz de salir adelante. ✨",
+    "No tienes que ser perfecto, solo tienes que ser tú. 🌷",
+    "El sol siempre vuelve a brillar, aunque a veces no lo veamos. ☀️",
+    "La oscuridad no dura para siempre, siempre llega la luz. 🌅",
+    "No importa lo lento que vayas, lo importante es no detenerse. 🐢",
+    "Cada día es una oportunidad para sanar y ser mejor. 🌼",
+    "Tú eres importante, y el mundo necesita tu luz. 🌟",
+    "Los momentos difíciles son solo capítulos temporales en tu vida. 📖",
+    "Hoy es un buen día para empezar a cuidar de ti mismo. 🛀",
+    "Confía en el proceso de la vida. El tiempo tiene su propio ritmo. ⏰",
+    "Eres suficiente tal y como eres. 💫",
+    "Permítete descansar, no eres una máquina. 🛏️",
+    "La vida te da lo que necesitas, aunque a veces no lo entiendas. 🌸",
+    "Recuerda que los días grises también pasan, y llega la calma. 🌤️"
   ];
+  
 
   // Función para elegir una frase aleatoria
   const getRandomQuote = () => {
